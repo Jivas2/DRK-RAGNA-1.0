@@ -35,8 +35,8 @@ global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
-global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.save_status_from = process.env.SAVE_STATUS_FROM || "true";
+global.read_status_from = process.env.READ_STATUS_FROM || "true";
 
 global.api_smd = "https://drk-tech-2.onrender.com/;
 global.scan = "https://drk-tech-2.onrender.com/";
